@@ -28,7 +28,7 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="pt-40 pb-20 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <motion.div
-          className="flex-1 text-center md:text-left"
+          className="flex-1 text-center"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -61,7 +61,7 @@ export default function Portfolio() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
-            className="text-lg md:text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed"
+            className="text-lg md:text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed text-center mx-auto"
           >
             MCA Graduate with a First Class Distinction (8.5 CGPA).
             <br />Passionate about building stateful AI agents and scalable cloud solutions.
@@ -71,7 +71,7 @@ export default function Portfolio() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1 }}
-            className="flex flex-wrap gap-4 justify-center md:justify-start"
+            className="flex flex-wrap gap-4 justify-center"
           >
             <a href="#projects" className="bg-cyan-600 hover:bg-cyan-500 text-white px-8 py-3 rounded-2xl font-bold transition-all shadow-lg shadow-cyan-900/20 hover:scale-105 active:scale-95">
               Explore Projects
