@@ -82,24 +82,7 @@ export default function Portfolio() {
           </motion.div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
-          whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.4, type: "spring" }}
-          className="flex-1 flex justify-center md:justify-end"
-        >
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-500/50 shadow-[0_0_60px_rgba(6,182,212,0.4)] hover:shadow-[0_0_100px_rgba(112,26,255,0.4)] transition-shadow duration-500">
-            <img
-              src="/profile.png"
-              alt="Sembiyan S"
-              className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
-              onError={(e) => {
-                e.currentTarget.src = "https://ui-avatars.com/api/?name=Sembiyan+S&background=020617&color=22d3ee&size=512&font-size=0.33"
-              }}
-            />
-          </div>
-        </motion.div>
+        {/* Profile image removed as requested. */}
       </section>
 
       {/* About/Academic Section */}
